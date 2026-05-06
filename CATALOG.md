@@ -1,12 +1,12 @@
 # 提示词目录
 
-当前共拆分出 **101** 个提示词文件。
+当前共拆分出 **100** 个提示词文件。
 
 ## 分类统计
 
 | 分类 | 数量 | 说明 |
 | --- | ---: | --- |
-| AI方法 | 6 | 元提示词、反编译和提示词工程方法。 |
+| AI方法 | 5 | 元提示词、反编译和提示词工程方法。 |
 | AI工作 | 7 | 面向企业、销售、客服、PPT、网页等生产力场景。 |
 | AI学习 | 10 | 学习方法、记忆术、习惯养成和学习助理。 |
 | AI生活 | 2 | 健康、亲子歌曲等生活场景。 |
@@ -24,7 +24,6 @@
 | AI方法 | 反编译 | [图片反编译：RTF通用提示词](prompts/01-ai-methods/image-reverse-engineering.md) | active | 图片反编译 |
 | AI方法 | 元提示词 | [智能元提示词生成系统](prompts/01-ai-methods/interactive-rtf-meta-prompt-system.md) | active | 元提示词 |
 | AI方法 | 元提示词 | [元提示词：生成提示词的提示词](prompts/01-ai-methods/meta-prompt-rtf-generator.md) | active | 元提示词 |
-| AI方法 | 元提示词 | [元提示词：认知极限系统](prompts/01-ai-methods/omega-promptforge-cognitive-limit-system.md) | third-party-review | 元提示词 |
 | AI方法 | 反编译 | [视频反编译：短视频截图拆解分析](prompts/01-ai-methods/video-reverse-engineering.md) | active | 视频反编译 |
 | AI工作 | 企业调研 | [从0到1：用AI深度调研企业的完整方法论](prompts/02-ai-work/company-research-methodology.md) | active | 企业调研 |
 | AI工作 | 客服 | [AI客服系统提示词](prompts/02-ai-work/customer-service-system-prompt.md) | active | 客服 |
