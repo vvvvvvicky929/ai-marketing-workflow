@@ -136,6 +136,13 @@ COLLECTIONS = [
         "href": f"{REPO_URL}/blob/main/prompts/06-ai-content/README.md",
         "meta": "36 个",
     },
+    {
+        "kicker": "English",
+        "title": "English README and 36 Prompts",
+        "description": "英文说明文档与 36 个英文内容运营提示词已放在独立目录中，英文入口只导航到英文提示词文件，便于海外读者直接复制使用。",
+        "href": f"{REPO_URL}/blob/main/README.en.md",
+        "meta": "EN",
+    },
 ]
 
 
@@ -891,7 +898,7 @@ def build_html(prompts: list[Prompt]) -> str:
       <div class="hero-grid">
         <div>
           <h1>提示词类型与代表提示词导航</h1>
-          <p>从当前开源库中抽取 9 类提示词结构，展示每类的用途、规模和代表样例。当前重点推荐「智能元提示词生成系统 V0.6」；新增的 36 个内容与运营提示词已直接并入 AI内容目录，方便浏览、复制和持续维护。</p>
+          <p>从当前开源库中抽取 9 类提示词结构，展示每类的用途、规模和代表样例。当前重点推荐「智能元提示词生成系统 V0.6」；新增的 36 个内容与运营提示词已直接并入 AI内容目录，并同步提供英文说明文档和英文提示词入口。</p>
           <div class="hero-actions">
             <a class="button" href="#AI方法">查看类型</a>
             <a class="button secondary" href="{REPO_URL}/blob/main/CATALOG.md" target="_blank" rel="noreferrer">完整目录</a>

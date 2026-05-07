@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- 新增 `prompts-en/06-ai-content/`，同步生成 36 个英文内容与运营提示词文件。
+- 新增 `README.en.md` 和 `prompts-en/README.md`，英文说明文档中的提示词导航均指向英文提示词目录。
+- 更新仓库首页和网页导航，为英文说明文档与英文提示词增加入口。
 - 将新增的 36 个内容与运营提示词直接并入 `prompts/06-ai-content/`，并统一为仓库既有文件命名方式。
 - 更新 `prompts/06-ai-content/README.md`，按文案创作、人设风格、内容工具、平台运营、行业内容、运营辅助重新归类这批提示词。
 - 更新 README、Prompts 说明、分类体系和网页导航，在 AI内容分类中展示新的代表提示词入口。

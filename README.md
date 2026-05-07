@@ -1,10 +1,10 @@
 # Yao Open Prompts
 
-[网页导航](https://yaojingang.github.io/yao-open-prompts/) · [完整目录](CATALOG.md) · [GitHub 仓库](https://github.com/yaojingang/yao-open-prompts)
+[网页导航](https://yaojingang.github.io/yao-open-prompts/) · [完整目录](CATALOG.md) · [English README](README.en.md) · [英文提示词](prompts-en/06-ai-content/README.md) · [GitHub 仓库](https://github.com/yaojingang/yao-open-prompts)
 
 《姚金刚提示词合集》的开源版本，一个面向真实工作、学习、内容、营销和生活场景的中文 AI 提示词库。
 
-本仓库从原始合集文档和后续提示词目录中整理出 **91** 个提示词文件，并按场景重新分类。每个提示词保留可复制的正文，去除了原文中不适合放入开源仓库主体的教程推广、效果截图、视频附件说明和 HTML 样式残留。
+本仓库从原始合集文档和后续提示词目录中整理出 **91** 个中文提示词文件，并按场景重新分类。每个提示词保留可复制的正文，去除了原文中不适合放入开源仓库主体的教程推广、效果截图、视频附件说明和 HTML 样式残留。
 
 系列型内容会优先合并成主题合集，例如 `50个 Nano Banana 创意提示词` 和 `Nano Banana PPT 场景提示词合集`，避免仓库目录被大量零散短提示词打散。
 
@@ -18,15 +18,19 @@
 
 **[36 个内容与运营提示词](prompts/06-ai-content/README.md)**：新增提示词已直接并入 `prompts/06-ai-content/`，采用与仓库其他提示词一致的文件命名方式，覆盖短视频文案、人设风格、平台运营、行业内容、直播转化、私域成交、AI 绘画、数据复盘和爆款重构。
 
+**[English README](README.en.md)**：英文说明文档入口，对应导航到 [36 个英文内容与运营提示词](prompts-en/06-ai-content/README.md)，英文提示词统一存放在 `prompts-en/` 下。
+
 ## 仓库结构
 
 ```text
 prompts/                # 按场景分类的提示词正文
+prompts-en/             # 英文同步版提示词
 references/             # 推荐资源、第三方内容和外部项目索引
 templates/              # 新增提示词模板
 maintenance/            # 维护、评审、发布检查清单
 scripts/                # 目录生成和仓库质量检查脚本
 docs/                   # 提示词类型与代表提示词网页
+README.en.md            # 英文说明文档
 CATALOG.md              # 全量提示词索引
 CHANGELOG.md            # 更新记录
 CONTRIBUTING.md         # 贡献和持续迭代规则

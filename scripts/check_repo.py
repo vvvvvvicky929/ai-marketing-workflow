@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PROMPTS = ROOT / 'prompts'
+PROMPT_ROOTS = [ROOT / 'prompts', ROOT / 'prompts-en']
 REQUIRED = ['title', 'category', 'subcategory', 'source_section', 'author', 'version', 'status', 'tags']
 VALID_STATUS = {'active', 'draft', 'third-party-review'}
 
@@ -27,7 +27,10 @@ def parse_frontmatter(path: Path):
 def main():
     errors = []
     warnings = []
-    files = [p for p in sorted(PROMPTS.rglob('*.md')) if p.name != 'README.md']
+    files = []
+    for prompt_root in PROMPT_ROOTS:
+        if prompt_root.exists():
+            files.extend(p for p in sorted(prompt_root.rglob('*.md')) if p.name != 'README.md')
     titles = {}
     for path in files:
         fm, body = parse_frontmatter(path)
